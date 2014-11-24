@@ -5,90 +5,107 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"50"		[$WIN32]
-		"xpos_minmode"	"-5"	[$WIN32]
-		"ypos"			"r120"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
-		"xpos"			"32"	[$X360]
-		"ypos"			"r144"	[$X360]
-		"zpos"			"2"
-		"wide"			"250"
-		"tall"			"120"
+		"xpos"			"c-275"		[$WIN32]
+		"ypos"			"r105"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"200"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
-		"HealthDeathWarning"	"0.49"
+		"HealthDeathWarning"	"0.50"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
+	"PlayerStatusHealthBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBG"
+		"xpos"			"0"
+		"ypos"			"50"
+		"zpos"			"3"
+		"wide"			"150"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillColor"		"0 0 0 200"	
+		"scaleImage"	"1"	
+	}
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"75"
+		"xpos"			"120"
 		"xpos_minmode"	"60"
-		"ypos"			"35"
+		"ypos"			"20"
 		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"60"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
+		
 	}		
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
+		"xpos"			"117"
 		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"ypos"			"17"
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
+		"wide"			"0"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/health_bg"
+		"fillColor"		"255 255 255 200"	
 		"scaleImage"	"1"	
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
-		"ypos"			"43"	[$X360]
+		"xpos"			"-200"	[$WIN32]
+		"ypos"			"-200"		[$WIN32]
 		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
-		"wide_minmode"	"40"	[$WIN32]
-		"wide"			"35"	[$X360]
-		"tall"			"55"	[$WIN32]
-		"tall_minmode"	"40"	[$WIN32]
-		"tall"			"35"	[$X360]
+		"wide"			"0"	[$WIN32]
+		"tall"			"0"	[$WIN32]
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
-	"PlayerStatusHealthValue"
+	"PlayerStatusHealthValuePlayer"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
-		"xpos_minmode"	"61"
-		"ypos"			"52"	[$WIN32]
-		"ypos"			"55"	[$X360]
-		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
+		"fieldName"		"PlayerStatusHealthValuePlayer"
+		"xpos"			"0"
+		"ypos"			"50"	[$WIN32]
+		"zpos"			"4"
+		"wide"			"140"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudClassHealth"
-		"fgcolor"		"TanDark"
-	}								
+		"font"			"EnterSansman60"
+		"fgcolor"		"TanLight"
+	}	
+	"PlayerStatusHealthValueBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"2"
+		"ypos"			"52"	[$WIN32]
+		"zpos"			"4"
+		"wide"			"140"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"EnterSansman60"
+		"fgcolor"		"Black"
+	}		
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -161,8 +178,8 @@
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
+		"wide"			"24"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -177,8 +194,8 @@
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
+		"wide"			"24"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -193,8 +210,8 @@
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
+		"wide"			"24"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -210,8 +227,8 @@
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
+		"wide"			"24"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -226,8 +243,8 @@
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
+		"wide"			"24"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -242,8 +259,8 @@
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
+		"wide"			"24"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	

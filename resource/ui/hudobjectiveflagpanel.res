@@ -23,13 +23,13 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
 		"xpos"			"c-140"
-		"ypos"			"r75"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
 		"ypos"			"r96"	[$X360]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"80"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_bg_left"
 		"scaleImage"	"1"	
 		
@@ -59,8 +59,8 @@
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"80"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_bg_right"
 		"scaleImage"	"1"	
 		
@@ -90,8 +90,8 @@
 		"zpos"			"2"
 		"wide"			"280"
 		"tall"			"80"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_bg_outline"
 		"scaleImage"	"1"	
 		
@@ -115,22 +115,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-130"
-		"ypos"			"r47"
-		"ypos_lodef"	"r88"
-		"ypos_hidef"	"r93"
+		"xpos"			"c-100"
+		"ypos"			"15"
 		"zpos"			"8"
-		"wide"			"75"
-		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
+		"wide"			"55"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
-		"font"			"HudFontBig"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
+		"font"			"EnterSansman24"
 		"fgcolor"		"TanLight"
 		
 		"if_hybrid"
@@ -154,7 +148,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
 		"xpos"			"c-128"
-		"ypos"			"r46"
+		"ypos"			"2"
 		"ypos_lodef"	"r87"
 		"ypos_hidef"	"r92"
 		"zpos"			"7"
@@ -162,13 +156,11 @@
 		"tall"			"35"
 		"tall_hidef"	"100"
 		"tall_lodef"	"75"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"HudFontBig"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
+		"font"			"EnterSansman24"
 		"fgcolor"		"Black"
 		
 		"if_hybrid"
@@ -186,27 +178,47 @@
 			"visible"	"0"
 		}
 	}	
+	
+	"BlueScoreBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlueScoreBG"
+		"xpos"			"c-100"
+		"ypos"			"15"
+		"wide"			"55"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"25 25 255 175"	
+		"scaleImage"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}
 							
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c57"
-		"ypos"			"r47"
-		"ypos_lodef"	"r88"
-		"ypos_hidef"	"r93"
+		"xpos"			"c45"
+		"ypos"			"15"
 		"zpos"			"8"
-		"wide"			"75"
-		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
+		"wide"			"55"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"HudFontBig"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
+		"font"			"EnterSansman24"
 		"fgcolor"		"TanLight"		
 		
 		"if_hybrid"
@@ -238,8 +250,8 @@
 		"tall"			"35"
 		"tall_hidef"	"100"
 		"tall_lodef"	"75"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
 		"font"			"HudFontBig"
@@ -262,6 +274,33 @@
 			"visible"	"0"
 		}
 	}	
+	
+	"RedScoreBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RedScoreBG"
+		"xpos"			"c45"
+		"ypos"			"15"
+		"zpos"			"8"
+		"wide"			"55"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"255 25 25 175"	
+		"scaleImage"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}
 															
 	"OutlineImage"
 	{
@@ -272,9 +311,9 @@
 		"ypos"			"r148"	[$X360]
 		"zpos"			"9"
 		"wide"			"100"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_carried_outline"
 		"scaleImage"	"1"	
 	}		
@@ -309,13 +348,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"	[$WIN32]
-		"xpos"			"c-60"	[$X360]
-		"ypos"			"r28"	[$WIN32]
-		"ypos"			"r48"	[$X360]
+		"xpos"			"c-65"	[$WIN32]
+		"ypos"			"40"	[$WIN32]
 		"zpos"			"4"
-		"wide"			"140"	[$WIN32]
-		"wide"			"120"	[$X360]
+		"wide"			"130"	[$WIN32]
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -323,7 +359,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmall"
+		"font"			"EnterSansman8"
 		"fgcolor"		"TanLight"
 		
 		"if_hybrid"
@@ -347,16 +383,12 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
 		"xpos"			"c-75"	[$WIN32]
-		"xpos"			"c-70"	[$X360]
 		"ypos"			"r31"	[$WIN32]
-		"ypos"			"r51"	[$X360]
 		"zpos"			"3"
-		"wide"			"150"	[$WIN32]
-		"wide"			"140"	[$X360]
+		"wide"			"0"		[$WIN32]
 		"tall"			"38"	[$WIN32]
-		"tall"			"35"	[$X360]
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
 		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
 		"scaleImage"	"1"	
@@ -382,11 +414,11 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
 		"xpos"			"c-135"
-		"ypos"			"r95"	[$WIN32]
+		"ypos"			"r75"	[$WIN32]
 		"ypos"			"r116"	[$X360]
 		"zpos"			"5"
 		"wide"			"160"
-		"tall"			"90"
+		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -422,11 +454,11 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
 		"xpos"			"c-25"
-		"ypos"			"r95"	[$WIN32]
+		"ypos"			"r75"	[$WIN32]
 		"ypos"			"r116"	[$X360]
 		"zpos"			"5"
 		"wide"			"160"
-		"tall"			"90"
+		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
 				
@@ -462,8 +494,7 @@
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
 		"xpos"			"c-40"
-		"ypos"			"r95"	[$WIN32]
-		"ypos"			"r116"	[$X360]
+		"ypos"			"r80"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"80"
 		"tall"			"80"

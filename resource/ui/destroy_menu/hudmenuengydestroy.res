@@ -9,8 +9,8 @@
 		"zpos"			"0"
 		"wide"			"450"
 		"tall"			"170"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
@@ -48,7 +48,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiantBold"
+		"font"			"EnterSansman36"
 		"fgcolor"		"Black"
 		"xpos"			"32"			// align me to the left edge of the first selection
 		"ypos"			"7"
@@ -69,7 +69,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
+		"font"			"EnterSansman36"
 		"xpos"			"31"			// align me to the left edge of the first selection
 		"ypos"			"4"
 		"zpos"			"3"

@@ -9,10 +9,10 @@
 		"zpos"		"20"
 		"wide"		"100"
 		"wide_minmode"		"65"
-		"tall"		"65"
+		"tall"		"0"
 		"tall_minmode"		"42"
 		"visible"	"0"
-		"enabled"	"1"
+		"enabled"	"0"
 	}
 
 	"ProgressBar"
@@ -31,7 +31,7 @@
 		"autoResize"	"0"
 		"pinCorner"	"0"
 		"visible"	"1"
-		"enabled"	"1"
+		"enabled"	"0"
 		"fg_image"	"progress_bar_blu"
 		"bg_image"	"progress_bar_blu"
 	}

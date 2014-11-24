@@ -16,14 +16,13 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r95"	[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"r55"	[$WIN32]
-		"ypos_minmode"	"r36"	[$WIN32]
-		"xpos"	"r131"	[$X360]
-		"ypos"	"r77"	[$X360]
-		"wide"	"94"
-		"tall"	"45"
+		"xpos"			"c115"		[$WIN32]
+		"ypos"			"r55"	[$WIN32]
+		"zpos"			"1"
+		"wide"			"200"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"	
 	}
 	
 	HudObjectiveStatus
@@ -33,6 +32,7 @@
 		"enabled" "1"
 		"xpos"	"0"
 		"ypos"	"0"
+		"zpos"	"-1"
 		"wide"	"f0"
 		"tall"	"480"
 	}	
@@ -42,7 +42,7 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-100"
+		"xpos"	"c-85"
 		"ypos"	"0"
 		"wide"	"200"
 		"tall"	"160"
@@ -59,12 +59,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
+		"xpos"			"c300"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r50"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -76,14 +72,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r138"	[$WIN32]
-		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
-		"ypos_minmode"	"r34"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
-		"wide"			"200"
-		"tall"			"100"
+		"xpos"			"c125"		[$WIN32]
+		"ypos"			"r55"	[$WIN32]
+		"wide"			"130"
+		"tall"			"50"
 	}
 	
 	HudDemomanCharge
@@ -91,15 +83,10 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"c-60"	[$WIN32]
+		"ypos"			"c135"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
+		"wide"			"120"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -111,14 +98,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
-		"wide_minmode"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -199,13 +183,11 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"					"c195"	[$WIN32]
+		"ypos"					"r27"	[$WIN32]
+		"zpos"					"5"
+		"wide"					"100"
+		"tall"  				"20"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -214,10 +196,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
+		"xpos"					"c-200"
+		"ypos"					"c80"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -260,7 +240,7 @@
 		"xpos"		"c-126"
 		"ypos"		"285"
 		"wide"	 	"252"
-		"tall"	 	"35"
+		"tall"	 	"45"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef"	"5"
@@ -278,9 +258,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"370"
 		"wide"	 	"252"
-		"tall"	 	"35"
+		"tall"	 	"45"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef" "35"
@@ -296,8 +276,8 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"335"
-		"wide"	 	"252"
-		"tall"	 	"35"
+		"wide"	 	"0"
+		"tall"	 	"50"
 		"tall_minmode"	 	"28"
 		"priority"	"35"
 
@@ -329,12 +309,8 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
-		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
+		"xpos"		"-20"
+		"ypos"		"-10"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -424,7 +400,16 @@
 
 	HudDamageIndicator
 	{
-
+		"fieldName" "HudDamageIndicator"
+		"visible" "1"
+		"enabled" "1"
+		"MinimumWidth" "30"
+		"MaximumWidth" "30"            
+		"StartRadius" "	"
+		"EndRadius" "80"
+		"MinimumHeight" "10"
+		"MaximumHeight" "30"
+		"MinimumTime" "1"
 	}
 
 	HudCommentary
@@ -484,18 +469,16 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "12"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
-		"wide"	 "628"
+		"xpos"	 "r680"	[$WIN32]
+		"ypos"	 "0"	[$WIN32]
+		"wide"	 "675"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "4"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
+		"MaxDeathNotices" "5"
+		"IconScale"	  "0.50"
+		"LineHeight"	  "12"
+		"LineSpacing"	  "1"
+		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"		"Default"
@@ -823,13 +806,13 @@
 	{
 		"fieldName"				"HudControlPointIcons"
 		"xpos"					"0"
-		"ypos"					"410"
+		"ypos"					"0"
 		"wide"					"f0"
-		"tall"					"200"
+		"tall"					"50"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"9"	// distance between the icons (including their backgrounds)
-		"separator_height"		"7"
+		"separator_width"		"3"	// distance between the icons (including their backgrounds)
+		"separator_height"		"5"
 		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
 		"height_offset"			"26"	[$X360]
 	}
@@ -862,7 +845,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-150"
-		"ypos"					"215"
+		"ypos"					"c-150"
 		"wide"					"300"
 		"tall"					"300"
 	}
@@ -971,8 +954,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
-		"ypos"			"275"
+		"ypos"			"50"
 		"wide"	 		"320"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"2"
@@ -1034,14 +1016,11 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"c195"	[$WIN32]
+		"ypos"			"r30"	[$WIN32]
+		"zpos"			"2"
+		"wide"			"50"
+		"tall"			"25"
 	}	
 
 	HudTeamGoal

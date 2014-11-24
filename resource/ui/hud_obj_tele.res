@@ -25,8 +25,8 @@
 		"wide"			"120"
 		"tall"			"31"
 		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
+		"enabled"		"0"
+		"scaleImage"	"0"	
 		"icon"			"obj_status_background_disabled"
 		"iconColor"		"255 255 255 255"
 	}

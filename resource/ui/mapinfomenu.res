@@ -33,7 +33,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
-		"font"			"ChalkboardTitle"
+		"font"			"EnterSansman24"
 		"fgcolor"		"White"
 	}
 	
@@ -55,7 +55,7 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"west"
-		"font"			"ChalkboardText"
+		"font"			"EnterSansman12"
 		"fgcolor"		"Gray"
 	}	
 	
@@ -63,7 +63,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"ChalkboardText"
+		"font"			"EnterSansman10"
 		"xpos"			"c-184"
 		"xpos_lodef"			"c-174"
 		"xpos_hidef"			"c-174"
@@ -113,11 +113,29 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
 		"xpos"			"r190"
-		"xpos_lodef"			"r222"
-		"xpos_hidef"			"r232"
 		"ypos"			"r40"
-		"ypos_lodef"			"r64"
-		"ypos_hidef"			"r54"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		""
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"continue"
+		"default"		"1"
+		"font"			"EnterSansman24"
+		"fgcolor"		"Black"
+	}
+	"MapInfoContinueFixed" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoContinueFixed"
+		"xpos"			"r190"
+		"ypos"			"r40"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -125,13 +143,13 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Continue"
+		"labelText"		"Continue (&E)"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"MenuSmallFont"
+		"font"			"EnterSansman24"
 		"fgcolor"		"Black"
 	}
 	
@@ -145,19 +163,19 @@
 		"ypos_hidef"			"r54"
 		"zpos"			"6"
 		"wide"			"150"
-		"tall"			"30"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"#TF_WatchIntro"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"intro"
 		"default"		"1"
-		"font"			"MenuSmallFont"
-		"fgcolor"		"Black"
+		"font"			"EnterSansman10"
+		"fgcolor"		"White"
 	}
 	
 	"MapInfoBack" [$WIN32]
@@ -181,8 +199,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"MenuSmallFont"
-		"fgcolor"		"Black"
+		"font"			"EnterSansman24"
+		"fgcolor"		"White"
 	}
 	
 	"MenuBG"
@@ -196,8 +214,8 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fov"			"20"
 		
 		"model"
@@ -230,43 +248,11 @@
 		"tall_hidef"			"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"	
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
-	}	
-
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"zpos"				"6"
-		"tall"				"80"
-		"button_separator"	"10"
-		"button_separator_lodef"	"5"
-		"buttongap"			"50"
-		"textadjust"		"3"
-		"buttonoffsety"		"20"
-		"buttonoffsety_hidef"		"0"
-		"buttonoffsety_lodef"		"18"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite" 	
-		
-		"button"
-		{
-			"name"		"intro"
-			"text"		"#TF_WatchIntro_360"
-			"icon"		"#GameUI_Icons_Y_BUTTON"	
-		}
-		
-		"button"
-		{
-			"name"		"continue"
-			"text"		"#TF_Continue_360"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
-		}
 	}	
 }

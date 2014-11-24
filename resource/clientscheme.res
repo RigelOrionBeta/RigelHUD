@@ -434,7 +434,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Enter Sansman Bold"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -442,7 +442,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Enter Sansman Bold"
 				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -451,7 +451,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Enter Sansman Bold"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -460,7 +460,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Enter Sansman Bold"
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -469,7 +469,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Enter Sansman Bold"
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -478,14 +478,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"Enter Sansman Bold"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Arial"
+				"name"		"Enter Sansman Bold"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -2389,6 +2389,184 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"15"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		EnterSansman5
+		{
+			"1"
+			{
+				"name"		"Enter Sansman Bold"
+				"tall"		"5"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		EnterSansman6
+		{
+			"1"
+			{
+				"name"		"Enter Sansman Bold"
+				"tall"		"6"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		EnterSansman7
+		{
+			"1"
+			{
+				"name"		"Enter Sansman Bold"
+				"tall"		"7"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		EnterSansman8
+		{
+			"1"
+			{
+				"name"		"Enter Sansman Bold"
+				"tall"		"8"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		EnterSansman10
+		{
+			"1"
+			{
+				"name"		"Enter Sansman Bold"
+				"tall"		"10"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		EnterSansman12
+		{
+			"1"
+			{
+				"name"		"Enter Sansman Bold"
+				"tall"		"12"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		EnterSansman14
+		{
+			"1"
+			{
+				"name"		"Enter Sansman Bold"
+				"tall"		"14"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		EnterSansman16
+		{
+			"1"
+			{
+				"name"		"Enter Sansman Bold"
+				"tall"		"16"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		EnterSansman18
+		{
+			"1"
+			{
+				"name"		"Enter Sansman Bold"
+				"tall"		"18"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		EnterSansman24
+		{
+			"1"
+			{
+				"name"		"Enter Sansman Bold"
+				"tall"		"24"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		EnterSansman36
+		{
+			"1"
+			{
+				"name"		"Enter Sansman Bold"
+				"tall"		"36"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		EnterSansman48
+		{
+			"1"
+			{
+				"name"		"Enter Sansman Bold"
+				"tall"		"48"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		EnterSansman50
+		{
+			"1"
+			{
+				"name"		"Enter Sansman Bold"
+				"tall"		"50"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		EnterSansman60
+		{
+			"1"
+			{
+				"name"		"Enter Sansman Bold"
+				"tall"		"60"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -4301,6 +4479,16 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}			
+		}	
+		"7"
+		{
+			"font" "resource/fonts/entsani.ttf"
+			"name" "Enter Sansman Bold Italic"
+		}	
+		"8"
+		{
+			"font" "resource/fonts/entsans.ttf"
+			"name" "Enter Sansman Bold"
+		}				
 	}
 }

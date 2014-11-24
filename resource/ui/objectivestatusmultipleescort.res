@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusMultipleEscort"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"22"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"1"
@@ -16,7 +16,7 @@
 	{
 		"ControlName"		"CTFHudEscort"
 		"fieldName"			"BlueEscortPanel"
-		"xpos"				"c-200"
+		"xpos"				"c-190"
 		"ypos"				"r160"
 		"zpos"				"1"
 		"wide"				"400"
@@ -36,7 +36,7 @@
 	{
 		"ControlName"		"CTFHudEscort"
 		"fieldName"			"RedEscortPanel"
-		"xpos"				"c-200"
+		"xpos"				"c-190"
 		"ypos"				"r160"
 		"zpos"				"1"
 		"wide"				"400"
