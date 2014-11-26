@@ -235,13 +235,12 @@
 	CMainTargetID
 	{
 		"fieldName" 	"CMainTargetID"
-		"visible" 	"0"
+		"visible" 	"1"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"285"
-		"wide"	 	"252"
-		"tall"	 	"45"
-		"tall_minmode"	 	"28"
+		"xpos"		""
+		"ypos"		"350"
+		"wide"	 	"10"
+		"tall"	 	"50"
 		"priority"	"40"
 		"priority_lodef"	"5"
 
@@ -255,27 +254,26 @@
 	CSpectatorTargetID
 	{
 		"fieldName" 	"CSpectatorTargetID"
-		"visible" 	"0"
+		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"370"
+		"ypos"		"350"
 		"wide"	 	"252"
-		"tall"	 	"45"
-		"tall_minmode"	 	"28"
+		"tall"	 	"40"
 		"priority"	"40"
 		"priority_lodef" "35"
 		
 		"x_offset" "20"
-		"y_offset" "20"
+		"y_offset" "0"
 	}
 	
 	CSecondaryTargetID
 	{
 		"fieldName" 	"CSecondaryTargetID"
-		"visible" 	"0"
+		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"335"
+		"ypos"		"300"
 		"wide"	 	"0"
 		"tall"	 	"50"
 		"tall_minmode"	 	"28"

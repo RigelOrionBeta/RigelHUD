@@ -2573,6 +2573,18 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		BlockFont12
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"24"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 
 	}
 
@@ -4489,6 +4501,11 @@ Scheme
 		{
 			"font" "resource/fonts/entsans.ttf"
 			"name" "Enter Sansman Bold"
-		}				
+		}			
+		"9"
+		{
+			"font" "resource/fonts/BlockFont.ttf"
+			"name" "Blocks"
+		}
 	}
 }
