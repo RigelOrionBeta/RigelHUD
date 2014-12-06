@@ -651,11 +651,12 @@
 		"fieldName"		"SpectatorsInQueue"
 		"font"			"EnterSansman10"
 		"labelText"		"%waitingtoplay%"
-		"textAlignment"		"west"
-		"xpos"			"c-300"
-		"ypos"			"c100"	[$WIN32]
+		"textAlignment"		"east"
+		"xpos"			"170"
+		"xpos_hidef"	"135"
+		"ypos"			"285"	[$WIN32]
 		"zpos"			"4"
-		"wide"			"600"
+		"wide"			"424"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"

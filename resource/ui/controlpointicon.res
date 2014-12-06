@@ -52,8 +52,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"EnterSansman10"
-		"font_minmode"			"EnterSansman10"
+		"font"			"EnterSansman8"
 		"xpos"			"7"
 		"ypos"			"10"
 		"zpos"			"4"

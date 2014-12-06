@@ -18,12 +18,12 @@
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"0"	[$WIN32]
-		"ypos"			"r80"	[$WIN32]
+		"ypos"			"r105"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"75"
-		"tall"			"75"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"50"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"	
 	}

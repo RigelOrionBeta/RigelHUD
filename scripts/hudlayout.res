@@ -16,10 +16,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"			"c115"		[$WIN32]
-		"ypos"			"r55"	[$WIN32]
+		"xpos"			"c50"
+		"ypos"			"r90"
 		"zpos"			"1"
-		"wide"			"200"
+		"wide"			"150"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -32,7 +32,7 @@
 		"enabled" "1"
 		"xpos"	"0"
 		"ypos"	"0"
-		"zpos"	"-1"
+		"zpos"	"1"
 		"wide"	"f0"
 		"tall"	"480"
 	}	
@@ -42,10 +42,10 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-85"
+		"xpos"	"0"
 		"ypos"	"0"
-		"wide"	"200"
-		"tall"	"160"
+		"wide"	"f0"
+		"tall"	"480"
 		
 		"blue_active_xpos"			"16"
 		"blue_active_xpos_minmode"	"55"
@@ -72,10 +72,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c125"		[$WIN32]
-		"ypos"			"r55"	[$WIN32]
-		"wide"			"130"
-		"tall"			"50"
+		"xpos"			"0"		[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"wide"			"f0"
+		"tall"			"480"
 	}
 	
 	HudDemomanCharge
@@ -84,7 +84,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-60"	[$WIN32]
-		"ypos"			"c135"	[$WIN32]
+		"ypos"			"c75"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"120"
 		"tall"			"8"
@@ -183,8 +183,8 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c195"	[$WIN32]
-		"ypos"					"r27"	[$WIN32]
+		"xpos"					"c105"	[$WIN32]
+		"ypos"					"r70"	[$WIN32]
 		"zpos"					"5"
 		"wide"					"100"
 		"tall"  				"20"
@@ -196,10 +196,10 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-200"
-		"ypos"					"c80"
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"					"c-220"
+		"ypos"					"r110"
+		"wide"					"100"
+		"tall"  				"20"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -238,9 +238,9 @@
 		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		""
-		"ypos"		"350"
+		"ypos"		"r150"
 		"wide"	 	"10"
-		"tall"	 	"50"
+		"tall"	 	"40"
 		"priority"	"40"
 		"priority_lodef"	"5"
 
@@ -272,8 +272,8 @@
 		"fieldName" 	"CSecondaryTargetID"
 		"visible" 	"1"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"300"
+		"xpos"		""
+		"ypos"		"r120"
 		"wide"	 	"0"
 		"tall"	 	"50"
 		"tall_minmode"	 	"28"
@@ -467,19 +467,19 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r680"	[$WIN32]
-		"ypos"	 "0"	[$WIN32]
-		"wide"	 "675"
-		"tall"	 "468"
+		"xpos"	 "r685"	[$WIN32]
+		"ypos"	 "10"	[$WIN32]
+		"wide"	 "680"
+		"tall"	 "480"
 
 		"MaxDeathNotices" "5"
 		"IconScale"	  "0.50"
 		"LineHeight"	  "12"
 		"LineSpacing"	  "1"
-		"CornerRadius"	  "2"
+		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
+		"TextFont"		"EnterSansman8"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
@@ -842,10 +842,10 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"c-150"
-		"wide"					"300"
-		"tall"					"300"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
 	}
 
 	ArenaWinPanel
@@ -853,10 +853,10 @@
 		"fieldName"				"ArenaWinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-225"
-		"ypos"					"250"
-		"wide"					"450"
-		"tall"					"218"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
 	}
 	
 	PVEWinPanel
@@ -1014,11 +1014,11 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c195"	[$WIN32]
-		"ypos"			"r30"	[$WIN32]
+		"xpos"			"0"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"50"
-		"tall"			"25"
+		"wide"			"f0"
+		"tall"			"480"
 	}	
 
 	HudTeamGoal
@@ -1063,13 +1063,11 @@
 	{
 		"fieldName"				"HudArenaNotification"
 		"visible"				"0"
-		"enabled"				"1"
+		"enabled"				"0"
 		"xpos"					"c-160"
 		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"				"90"
 		"wide"					"320"
-		"tall"					"150"
+		"tall"					"0"
 	}
 
 	HudArenaCapPointCountdown
@@ -1197,7 +1195,7 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"f0"
-		"tall"					"50"
+		"tall"					"480"
 	}	
 	
 	"HudAchievementTracker"

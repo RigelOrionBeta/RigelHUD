@@ -4,8 +4,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"0"
-		"ypos"			"50"
+		"xpos"			"c-50"
+		"ypos"			"35"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"20"
@@ -16,14 +16,15 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"EnterSansman10"
+		"font"			"EnterSansman14"
+		"fgcolor"		"255  255 255 255"
 	}			
 	"OvertimeLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"0"
-		"ypos"			"50"
+		"xpos"			"c-50"
+		"ypos"			"35"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"20"
@@ -34,7 +35,8 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"EnterSansman10"
+		"font"			"EnterSansman14"
+		"fgcolor"		"255  255 255 255"
 	}			
 	"OvertimeBG"
 	{
@@ -71,6 +73,8 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
+		"font"			"EnterSansman14"
+		"fgcolor"		"255  255 255 255"
 	}			
 	"SuddenDeathBG"
 	{
@@ -86,7 +90,7 @@
 		"tall"			"20"
 		"tall_minmode"	"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 	}	
@@ -94,8 +98,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"0"
-		"ypos"			"50"
+		"xpos"			"c-50"
+		"ypos"			"35"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"20"	
@@ -106,7 +110,8 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"EnterSansman10"
+		"font"			"EnterSansman14"
+		"fgcolor"		"255  255 255 255"
 	}	
 	"SetupBG"
 	{
@@ -130,11 +135,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"c-50"
+		"ypos"			"r90"
 		"zpos"			"100"
 		"wide"			"100"
-		"tall"			"30"
+		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
@@ -143,19 +148,19 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"EnterSansman24"
-		"fgcolor"		"TanLight"	
+		"fgcolor"		"255  255 255 255"	
 	}	
+
 	
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"9999"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"31"
+		"xpos"			"c-55"
+		"ypos"			"r90"
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
+		"wide"			"110"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	

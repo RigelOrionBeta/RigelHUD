@@ -2585,6 +2585,184 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		
+		Unispace5
+		{
+			"1"
+			{
+				"name"		"Unispace-Bold"
+				"tall"		"5"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		Unispace6
+		{
+			"1"
+			{
+				"name"		"Unispace-Bold"
+				"tall"		"6"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		Unispace7
+		{
+			"1"
+			{
+				"name"		"Unispace-Bold"
+				"tall"		"7"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		Unispace8
+		{
+			"1"
+			{
+				"name"		"Unispace-Bold"
+				"tall"		"8"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		Unispace10
+		{
+			"1"
+			{
+				"name"		"Unispace-Bold"
+				"tall"		"10"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		Unispace12
+		{
+			"1"
+			{
+				"name"		"Unispace-Bold"
+				"tall"		"12"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		Unispace14
+		{
+			"1"
+			{
+				"name"		"Unispace-Bold"
+				"tall"		"14"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		Unispace16
+		{
+			"1"
+			{
+				"name"		"Unispace-Bold"
+				"tall"		"16"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		Unispace18
+		{
+			"1"
+			{
+				"name"		"Unispace-Bold"
+				"tall"		"18"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		Unispace24
+		{
+			"1"
+			{
+				"name"		"Unispace-Bold"
+				"tall"		"24"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		Unispace36
+		{
+			"1"
+			{
+				"name"		"Unispace-Bold"
+				"tall"		"36"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		Unispace48
+		{
+			"1"
+			{
+				"name"		"Unispace-Bold"
+				"tall"		"48"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		Unispace50
+		{
+			"1"
+			{
+				"name"		"Unispace-Bold"
+				"tall"		"50"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		
+		Unispace60
+		{
+			"1"
+			{
+				"name"		"Unispace-Bold"
+				"tall"		"60"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 
 	}
 
@@ -4506,6 +4684,11 @@ Scheme
 		{
 			"font" "resource/fonts/BlockFont.ttf"
 			"name" "Blocks"
+		}
+		"10"
+		{
+			"font" "resource/fonts/unispace bd.ttf"
+			"name"	"Unispace-Bold"
 		}
 	}
 }

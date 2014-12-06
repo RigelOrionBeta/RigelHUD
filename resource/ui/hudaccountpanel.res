@@ -37,24 +37,24 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"15"
-		"tall"			"15"
+		"wide"			"10"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"ProgressOffWhite"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"AccountValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"15"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"55"
-		"tall"			"26"
+		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -64,6 +64,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"EnterSansman24"
+		"fgcolor_override"	"255 255 255 255"
+		"font"			"EnterSansman12"
 	}
 }

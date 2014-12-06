@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-340"	[$WIN32]
-		"ypos"			"r50"	[$WIN32]
+		"xpos"			"9999"	[$WIN32]
+		"ypos"			"r55"	[$WIN32]
 		"wide"			"75"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -57,8 +57,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabelShadow"
-		"xpos"					"19"
-		"ypos"					"32"
+		"xpos"					"18"
+		"ypos"					"31"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -99,8 +99,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"7"
-		"ypos"					"12"
+		"xpos"					"6"
+		"ypos"					"11"
 		"zpos"					"2"
 		"wide"					"60"
 		"tall"					"20"	

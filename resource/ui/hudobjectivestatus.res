@@ -4,11 +4,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-50"
+		"xpos"				"0"
 		"ypos"				"0"	[$WIN32]
 		"zpos"				"1"
-		"wide"				"100"
-		"tall"				"200"
+		"wide"				"f0"
+		"tall"				"480"
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"			"22"	[$WIN32]
@@ -24,18 +24,32 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"EnterSansman12"
-			"fgcolor"		"TanLight"
-			"xpos"			"0"
-			"ypos"			"30"
+			"font"			"EnterSansman18"
+			"fgcolor"		"255 255 255 255"
+			"xpos"			"c-40"
+			"ypos"			"10"
 			"zpos"			"3"
-			"wide"			"100"
+			"wide"			"80"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 		}	
+		"TimePanelValueBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TimePanelValueBG"
+			"xpos"			"c-40"
+			"ypos"			"10"
+			"zpos"			"2"
+			"wide"			"80"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillColor"		"0 0 0 200"	
+			"scaleImage"	"1"	
+		}
 	}
 	"TeamIndicator"
 	{
@@ -53,6 +67,7 @@
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
+		"alpha"			"255"
 		
 		"src_corner_height"		"40"
 		"src_corner_width"		"40"
