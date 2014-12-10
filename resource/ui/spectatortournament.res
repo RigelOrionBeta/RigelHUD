@@ -43,7 +43,7 @@
 				"pinCorner"		"0"
 				"visible" 		"1"
 				"enabled" 		"1"
-				"fillcolor" 	"40 40 40 255"
+				"fillcolor" 	"20 20 20 255"
 				
 				"src_corner_width"			"40"
 				"src_corner_height"			"40"
@@ -308,17 +308,17 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"EnterSansman10"
-				"xpos"			"15"
+				"font"			"EnterSansman8"
+				"xpos"			"120"
 				"ypos"			"0"
-				"zpos"			"6"
-				"wide"			"30"
+				"zpos"			"3"
+				"wide"			"25"
 				"tall"			"18"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
-				"textAlignment"	"center"
+				"textAlignment"	"east"
 				"fgcolor"		"150 150 150 255"
 				
 				if_mvm

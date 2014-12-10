@@ -238,7 +238,7 @@
 		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		""
-		"ypos"		"r150"
+		"ypos"		"r170"
 		"wide"	 	"10"
 		"tall"	 	"40"
 		"priority"	"40"
@@ -259,7 +259,7 @@
 		"xpos"		"c-126"
 		"ypos"		"350"
 		"wide"	 	"252"
-		"tall"	 	"40"
+		"tall"	 	"28"
 		"priority"	"40"
 		"priority_lodef" "35"
 		
@@ -273,7 +273,7 @@
 		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		""
-		"ypos"		"r120"
+		"ypos"		"r140"
 		"wide"	 	"0"
 		"tall"	 	"50"
 		"tall_minmode"	 	"28"
@@ -308,9 +308,9 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"-20"
-		"ypos"		"-10"
-		"wide"		"640"
-		"tall"		"480"
+		"ypos"		"c-90"
+		"wide"		"70"
+		"tall"		"175"
 		
 		"PaintBackgroundType"	"2"
 	}
@@ -952,7 +952,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"10"	[$WIN32]
-		"ypos"			"50"
+		"ypos"			"10"
 		"wide"	 		"320"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"2"

@@ -7,7 +7,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"5"
-		"ypos"	"35"
+		"ypos"	"10"
 		"wide"	"210"
 		"tall"	"100"
 		"PaintBackgroundType"	"2"
@@ -60,8 +60,8 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"labelText"	""
-		"textAlignment"	"south-west"
-		"font"	"ChatFont"
+		"textAlignment"	"north-west"
+		"font"	"EnterSansman10"
 		"maxchars"	"-1"
 	}
 }

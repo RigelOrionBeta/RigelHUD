@@ -27,21 +27,21 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillColor"		"0 0 0 150"	
+		"fillColor"		"0 0 0 200"	
 		"scaleImage"	"1"	
 	}
 	"PlayerStatusHealthBG2"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBG2"
-		"xpos"			"c-150"
+		"xpos"			"c-50"
 		"ypos"			"r90"
 		"zpos"			"3"
 		"wide"			"100"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillColor"		"0 0 0 150"	
+		"fillColor"		"0 0 0 100"	
 		"scaleImage"	"1"	
 	}
 	//ammo bg
@@ -54,8 +54,8 @@
 		"zpos"			"3"
 		"wide"			"100"
 		"tall"			"35"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fillColor"		"0 0 0 150"	
 		"scaleImage"	"1"	
 	}

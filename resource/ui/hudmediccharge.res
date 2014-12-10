@@ -72,19 +72,18 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"EnterSansman48"
+		"font"			"EnterSansman36"
 		"fgcolor"		"Black"
 	}
-
 	"IndividualChargesLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"IndividualChargesLabel"
-		"xpos"			"c100"		
-		"ypos"			"c135"	
-		"zpos"				"2"
-		"wide"				"150"
-		"tall"				"50"
+		"xpos"			"c50"		
+		"ypos"			"r90"	
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"35"
 		"autoResize"		"1"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -94,7 +93,7 @@
 		"labeltext"			"#TF_IndividualUberchargesMinHUD"	
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"EnterSansman48"
+		"font"				"EnterSansman36"
 		"fgcolor_override"			"White"
 	}
 	

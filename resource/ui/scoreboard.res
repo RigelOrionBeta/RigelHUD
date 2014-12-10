@@ -281,7 +281,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"EnterSansman24"
+		"font"			"EnterSansman18"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"north-east"
 		"xpos"			"c150"
@@ -304,11 +304,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabelShadow"
-		"font"			"EnterSansman24"
+		"font"			"EnterSansman18"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"north-east"
-		"xpos"			"c152"
-		"ypos"			"c-148"
+		"xpos"			"c151"
+		"ypos"			"c-149"
 		"zpos"			"2"
 		"wide"			"150"
 		"tall"			"50"
@@ -327,7 +327,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"EnterSansman24"
+		"font"			"EnterSansman18"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"north-west"
 		"xpos"			"c-300"
@@ -349,11 +349,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabelShadow"
-		"font"			"EnterSansman24"
+		"font"			"EnterSansman18"
 		"labelText"		"%redteamname%"	
 		"textAlignment"		"north-west"
-		"xpos"			"c-298"
-		"ypos"			"c-148"
+		"xpos"			"c-299"
+		"ypos"			"c-149"
 		"zpos"			"2"
 		"wide"			"150"
 		"tall"			"50"
@@ -559,7 +559,7 @@
 		"font"			"Unispace36"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"west"
-		"xpos"			"c-52"
+		"xpos"			"c-60"
 		"ypos"			"c-150"
 		"zpos"			"3"
 		"wide"			"120"
@@ -568,8 +568,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
 		"enabled"		"1"
-		"textinsetx"	"-915"	
+		"textinsetx"	"-895"	
 		"fgcolor"		"White"
+		
 		
 		if_mvm
 		{
@@ -590,8 +591,8 @@
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"enabled"		"1"
+		"visible"		"0"	[$WIN32]
+		"enabled"		"0"
 		"textinsetx"	"-915"	
 		"fgcolor"		"Black"
 		
@@ -630,10 +631,10 @@
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"c-300"
-		"ypos"			"c100"	[$WIN32]
+		"ypos"			"c60"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"600"
-		"tall"			"20"
+		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

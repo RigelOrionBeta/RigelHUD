@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"c-50"
+		"xpos"			"270"
 		"ypos"			"35"
 		"zpos"			"5"
 		"wide"			"100"
@@ -23,7 +23,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"c-50"
+		"xpos"			"270"
 		"ypos"			"35"
 		"zpos"			"5"
 		"wide"			"100"
@@ -98,7 +98,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"c-50"
+		"xpos"			"270"
 		"ypos"			"35"
 		"zpos"			"5"
 		"wide"			"100"
@@ -135,7 +135,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"c-50"
+		"xpos"			"270"
 		"ypos"			"r90"
 		"zpos"			"100"
 		"wide"			"100"
@@ -156,14 +156,29 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"c-55"
+		"xpos"			"270"
 		"ypos"			"r90"
 		"zpos"			"1"
-		"wide"			"110"
+		"wide"			"100"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
+		"scaleImage"		"1"	
+	}
+	
+	"ServerTimeLimitLabelBG2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"ServerTimeLimitLabelBG2"
+		"xpos"			"270"
+		"ypos"			"r90"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"35"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"0 0 0 200"		
 		"scaleImage"		"1"	
 	}
 }
