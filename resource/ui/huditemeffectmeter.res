@@ -6,10 +6,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"r105"	[$WIN32]
+		"ypos"			"r100"	[$WIN32]
 		"wide"			"100"
 		"tall"			"10"
-		"MeterFG"		"White"
+		"MeterFG"		"Green"
 		"MeterBG"		"Gray"
 	}
 	
@@ -62,10 +62,10 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"5"
+		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"1"
-		"wide"					"90"
+		"wide"					"100"
 		"tall"					"10"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -74,5 +74,24 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
+	}	
+	"ItemEffectMeterFG"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"ItemEffectMeterFG"
+		"font"					"Default"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"100"
+		"wide"					"100"
+		"tall"					"10"				
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"Left"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"fillcolor"		"0 0 0 100"
+	}
 }

@@ -6,10 +6,9 @@
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"0"
-		"xpos_minmode"	"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"120"
+		"wide"			"100"
 		"tall"			"10"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -18,5 +17,28 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}					
+		"fgcolor_override"		"255 255 255 255"
+	}	
+
+	"ChargeLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ChargeLabel"
+		"xpos"					"5"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"90"
+		"tall"					"10"	
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"CHARGE"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"EnterSansman8"
+		"fgcolor"				"0 0 0 255"
+	}	
 }

@@ -736,8 +736,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c228"
-		"ypos"			"28"
+		"xpos"			"5"
+		"ypos"			"45"
 		"zpos"			"10"
 		"wide"			"32"
 		"tall"			"32"
@@ -807,6 +807,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
+			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
 			
@@ -831,8 +832,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"r220"
-		"ypos"			"30"
+		"xpos"			"5"
+		"ypos"			"45"
 		"zpos"			"10"
 		"wide"			"210"
 		"tall"			"80"
@@ -863,7 +864,6 @@
 			"default"		"0"
 
 			"Command"		"noti_hide"
-			"navActivate"	"<QuickplayButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -876,6 +876,7 @@
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2077,7 +2078,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StoreHasNewItemsImage"
 		"xpos"			"c-59"
-		"ypos"			"245"
+		"ypos"			"-50"
 		"zpos"			"13"
 		"wide"			"32"
 		"tall"			"32"

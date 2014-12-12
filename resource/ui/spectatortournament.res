@@ -425,7 +425,8 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-150"
-		"ypos"			"75"
+		"ypos"			"r110"
+		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"18"
 		"autoResize"		"0"
@@ -435,14 +436,22 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
 		"font"			"EnterSansman12"
-		
-		if_mvm
-		{
-			"xpos"			"c-190"
-			"ypos"			"1"
-			"wide"			"380"
-			"textAlignment"		"center"
-		}
+		"fgcolor_override"	"white"
+	}
+	"ReinforcementsLabelBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"ReinforcementsLabelBG"
+		"xpos"			"c-110"	[$WIN32]
+		"ypos"			"r110"	[$WIN32]
+		"zpos"			"0"	
+		"wide"			"220"	[$WIN32]
+		"tall"			"18"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 200"
 	}
 	"BuyBackLabel"
 	{

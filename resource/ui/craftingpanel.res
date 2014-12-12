@@ -262,7 +262,7 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"tabPosition"	"0"
-			"labelText"		"#CraftConfirm"
+			"labelText"		"CRAFT (&E)"
 			"font"			"HudFontMediumBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"

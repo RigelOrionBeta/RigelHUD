@@ -10,7 +10,8 @@
 		"ypos"	"10"
 		"wide"	"210"
 		"tall"	"100"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
+		"paintbackground"		"0"
 	}
 
 	ChatInputLine
@@ -30,7 +31,7 @@
 	{
 		"ControlName"	"Button"
 		"fieldName"	"ChatFiltersButton"
-		"xpos"	"160"
+		"xpos"	"0"
 		"ypos"	"0"
 		"wide"	"30"
 		"tall"	"5"
@@ -53,14 +54,14 @@
 		"xpos"	"5"
 		"ypos"	"5"
 		"wide"	"200"
-		"tall"	"75"
+		"tall"	"50"
 		"wrap"	"1"
 		"autoResize"	"1"
 		"pinCorner"	"1"
 		"visible"	"1"
 		"enabled"	"1"
 		"labelText"	""
-		"textAlignment"	"north-west"
+		"textAlignment"	"south-west"
 		"font"	"EnterSansman10"
 		"maxchars"	"-1"
 	}
