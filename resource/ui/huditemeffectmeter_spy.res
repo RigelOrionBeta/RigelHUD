@@ -51,7 +51,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"EnterSansman8"
 	}
 
 	"ItemEffectMeter"
@@ -93,6 +93,6 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
+		"font"					"EnterSansman24"
 	}
 }

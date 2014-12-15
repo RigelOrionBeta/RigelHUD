@@ -187,8 +187,8 @@
 		"xpos"			"2"
 		"ypos"			"2"
 		"zpos"			"0"
-		"wide"			"150"
-		"tall"			"40"
+		"wide"			"200"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../logo/new_tf2_logo"
@@ -990,11 +990,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ResumeGameButton"
-		"xpos"			"0"
-		"ypos"			"25"
-		"zpos"			"3"
-		"wide"			"f0"
-		"tall"			"430"
+		"xpos"			"c-25"
+		"ypos"			"c-25"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
@@ -1002,8 +1001,8 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
-			"xpos"			"c-25"
-			"ypos"			"c-25"
+			"xpos"			"0"
+			"ypos"			"0"
 			"wide"			"50"
 			"tall"			"50"
 			"autoResize"	"0"
@@ -2248,8 +2247,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"175"
-		"ypos"			"0"
+		"xpos"			"c-45"
+		"ypos"			"c25"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -2310,8 +2309,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"200"
-		"ypos"			"0"
+		"xpos"			"c-15"
+		"ypos"			"c25"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -2373,8 +2372,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"225"
-		"ypos"			"0"
+		"xpos"			"c15"
+		"ypos"			"c25"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -3839,11 +3838,6 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"PaintBackgroundType"	"0"
-
-		"navUp"			"ResumeGameButton"
-		"navDown"		"ChangeServerButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{

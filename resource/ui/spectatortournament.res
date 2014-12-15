@@ -425,7 +425,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-150"
-		"ypos"			"r110"
+		"ypos"			"r90"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"18"
@@ -443,7 +443,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ReinforcementsLabelBG"
 		"xpos"			"c-110"	[$WIN32]
-		"ypos"			"r110"	[$WIN32]
+		"ypos"			"r90"	[$WIN32]
 		"zpos"			"0"	
 		"wide"			"220"	[$WIN32]
 		"tall"			"18"

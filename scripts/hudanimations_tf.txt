@@ -268,9 +268,9 @@ event HudLowAmmoPulseLoop
 
 event HudLowAmmoPulseStop
 {
-	Animate AmmoInClip		FgColor	"TanLight"	Linear 0.0 0.0
-	Animate AmmoInReserve	FgColor	"TanLight"	Linear 0.0 0.0
-	Animate	AmmoNoClip		FgColor	"TanLight"	Linear 0.0 0.0
+	Animate AmmoInClip		FgColor	"White"	Linear 0.0 0.0
+	Animate AmmoInReserve	FgColor	"White"	Linear 0.0 0.0
+	Animate	AmmoNoClip		FgColor	"White"	Linear 0.0 0.0
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 }

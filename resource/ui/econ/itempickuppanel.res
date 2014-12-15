@@ -223,7 +223,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackpackButton"
-		"xpos"			"c50"
+		"xpos"			"c-300"
 		"ypos"			"420"
 		"zpos"			"6"
 		"wide"			"250"
@@ -248,7 +248,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"OpenLoadoutButton"
-		"xpos"			"c-300"
+		"xpos"			"c50"
 		"ypos"			"420"
 		"zpos"			"6"
 		"wide"			"250"
@@ -282,7 +282,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Delete (&R)"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"

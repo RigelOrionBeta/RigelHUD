@@ -7,10 +7,10 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"5"
-		"ypos"	"10"
+		"ypos"	"r110"
 		"wide"	"210"
 		"tall"	"100"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground"		"0"
 	}
 
