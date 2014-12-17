@@ -187,7 +187,6 @@
 		"command"		"engine exec customButton5"
 		"subimage" 		"glyph_workshop_edit"
 		"tooltip" 		""
-		"visible"		"0"
 	}
 	"CustomButton6"
 	{
