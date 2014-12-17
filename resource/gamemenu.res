@@ -232,8 +232,8 @@
 	}
 	"CustomButton12"
 	{
-		"label"			"engine exec customButton12"
-		"command"		""
+		"label"			""
+		"command"		"engine exec customButton12"
 		"subimage" 		"glyph_view"
 		"tooltip" 		""
 	}
