@@ -152,47 +152,90 @@
 		"tooltip" 		"#MMenu_RequestCoach"
 	}
 	
-	// Custom Menu Buttons
+	//*** Custom Buttons ***//
 	"CustomButton1"
 	{
-		"label"			"Scrims"
+		"label"			""
 		"command"		"engine exec customButton1"
 		"subimage" 		"icon_trash_on"
-		"tooltip" 		"Custom button"
+		"tooltip" 		""
 	}
 	"CustomButton2"
 	{
-		"label"			"Badlands"
+		"label"			""
 		"command"		"engine exec customButton2"
 		"subimage" 		"ico_friends"
-		"tooltip" 		"Custom button"
+		"tooltip" 		""
 	}
 	"CustomButton3"
 	{
-		"label"			"Draw Tree"
+		"label"			""
 		"command"		"engine exec customButton3"
 		"subimage" 		"glyph_close_x"
-		"tooltip" 		"Custom button"
+		"tooltip" 		""
 	}
 	"CustomButton4"
 	{
-		"label"			"Reload"
+		"label"			""
 		"command"		"engine exec customButton4"
 		"subimage" 		"glyph_workshop_delete"
-		"tooltip" 		"Custom button"
+		"tooltip" 		""
 	}
 	"CustomButton5"
 	{
-		"label"			"Custom5"
+		"label"			""
 		"command"		"engine exec customButton5"
 		"subimage" 		"glyph_workshop_edit"
-		"tooltip" 		"Custom button"
+		"tooltip" 		""
+		"visible"		"0"
 	}
 	"CustomButton6"
 	{
-		"label"			"Custom6"
+		"label"			""
 		"command"		"engine exec customButton6"
 		"subimage" 		"glyph_view"
-		"tooltip" 		"Custom button"
+		"tooltip" 		""
+	}
+	"CustomButton7"
+	{
+		"label"			""
+		"command"		"engine exec customButton7"
+		"subimage" 		"icon_trash_on"
+		"tooltip" 		""
+	}
+	"CustomButton8"
+	{
+		"label"			""
+		"command"		"engine exec customButton8"
+		"subimage" 		"ico_friends"
+		"tooltip" 		""
+	}
+	"CustomButton9"
+	{
+		"label"			""
+		"command"		"engine exec customButton9"
+		"subimage" 		"glyph_close_x"
+		"tooltip" 		""
+	}
+	"CustomButton10"
+	{
+		"label"			""
+		"command"		"engine exec customButton10"
+		"subimage" 		"glyph_workshop_delete"
+		"tooltip" 		""
+	}
+	"CustomButton11"
+	{
+		"label"			""
+		"command"		"engine exec customButton11"
+		"subimage" 		"glyph_workshop_edit"
+		"tooltip" 		""
+	}
+	"CustomButton12"
+	{
+		"label"			"engine exec customButton12"
+		"command"		""
+		"subimage" 		"glyph_view"
+		"tooltip" 		""
 	}
 }
