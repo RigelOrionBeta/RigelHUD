@@ -438,21 +438,6 @@
 		"font"			"EnterSansman12"
 		"fgcolor_override"	"white"
 	}
-	"ReinforcementsLabelBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ReinforcementsLabelBG"
-		"xpos"			"c-110"	[$WIN32]
-		"ypos"			"r90"	[$WIN32]
-		"zpos"			"0"	
-		"wide"			"220"	[$WIN32]
-		"tall"			"18"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 200"
-	}
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"

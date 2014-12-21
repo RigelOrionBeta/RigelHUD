@@ -158,7 +158,7 @@
 		"label"			""
 		"command"		"engine exec customButton1"
 		"subimage" 		"icon_trash_on"
-		"tooltip" 		""
+		"tooltip" 		""	
 	}
 	"CustomButton2"
 	{
