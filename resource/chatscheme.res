@@ -6,7 +6,7 @@
 //		BaseSettings	- contains settings for app to use to draw controls
 //		Fonts			- list of all the fonts used by app
 //		Borders			- description of all the borders
-//
+//		Scheme			- the scheme!
 ///////////////////////////////////////////////////////////
 Scheme
 {
